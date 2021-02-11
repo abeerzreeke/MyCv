@@ -1,0 +1,145 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    position: fixed;
+    top: 0px;
+}
+
+.jumbotron{
+    /* background-image: url("../static/images/yafa.jpg"); */
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(80%);
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.lead{
+    color: rgb(66, 211, 30);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img-fluid{
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+}
+.about .desc {
+    padding: 2em;
+    border-left: solid 4px rgb(60, 62, 224);
+    text-align: justify;
+}
+
+.card-group {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+  /* Remove extra left and right margins, due to padding */
+.row {
+    margin: 0 -5px;
+    margin-left: 0 -5px;
+}
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  /* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+  /* Style the counter cards */
+.card {
+    /* padding: 16px; */
+    text-align: center;
+  }
+.thumbnail a>img, .thumbnail>img {
+    display: block;
+    width: 100%;
+    height: 150px;
+ }
+
+h1{
+    margin-bottom: 2em;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    cursor: pointer;
+
+
+}
+.card-deck{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.card-footer{
+    height: 40px;
+}
+
+.flex-container{
+    text-align: center;
+
+
+}
+
+.card.h-100{
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: 0px 5px 25px #aaa;
+    border-radius: 10px;
+}
+
+form {
+    display: inline-block;
+    width: 70%;
+    margin-left: 30%;
+
+}
+section{
+    margin: 5em 0;
+    position: relative;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
