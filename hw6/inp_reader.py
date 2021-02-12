@@ -22,7 +22,7 @@ def read_inp():
     return matrix, search_word
 
 
-if __name__ == '__main__':
+if __name__ == '_main_':
     mat, w = read_inp()
 
     print('search in matrix:')

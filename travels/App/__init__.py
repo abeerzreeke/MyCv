@@ -1,8 +1,7 @@
 import flask
-from flask import render_template_string
-from flask import render_template, request
+from flask import render_template
 
-app = flask.Flask(__name__, static_url_path='App/static')
+app = flask.Flask(__name__, static_url_path='static')
 
 
 @app.route('/home', methods=['GET', 'POST'])
@@ -13,7 +12,3 @@ def main():
 @app.route('/reg', methods=['GET', 'POST'])
 def regis():
     return render_template('regist.html')
-
-
-if __name__ == "__main__":
-    app.run(debug=True, port=5555)

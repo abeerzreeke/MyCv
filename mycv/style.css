@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    outline: none;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    display: block;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+    
+}
+
+.header {
+    /* display: inline-block; */
+    padding: 5px;
+    margin: 25px auto;
+    width: 90%;
+    color: white;
+    border-radius: 12px;
+    background: #1c5c6b80;
+    /* position: relative; */
+    font-size: 30px;
+}
+.connect{
+    padding: 5px 10px;
+    margin-left: 29%;
+}
+i {
+    font-size: 15px;
+}
+.name {
+    text-align: center;
+    margin-top: -8%;
+}
+
+.profile.img{
+    border-radius: 112px;
+    padding: 13px;
+    width: 110px;
+    height: 100px;
+}
+
+form, .about, .fields { 
+    margin: 25px auto;
+    display: block;
+    padding: 25px;
+    background: #d9e9ed61;
+    width: 75%;
+    color: black;
+    font-size: 19px;
+}
+
+.section.second{
+    margin: 25px auto
+}
+
+h6{
+    margin: -5% auto;
+    font-size: 19px;
+}
+
+.choices{
+    margin: 7% auto;
+}
+
+.sub.choices{
+    margin: 10px auto
+}
+
+input[type="submit"], button {
+    border: 2px solid rgb(5, 5, 5);
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    cursor: pointer;
+}
+
+.field{
+    text-decoration-line: underline;
+}
